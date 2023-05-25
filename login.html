@@ -1,0 +1,125 @@
+<html>
+<head>
+  <style>
+    body {
+      background: #4F966C;
+    }
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Noto Sans KR', sans-serif;
+        border-radius: 5px;
+      }
+
+      body {
+        margin: 0;
+        background-color: #4F966C;
+      }
+      .home{
+        position:absolute;
+        left:-1%;
+        top:-1%;
+      }
+      .boxOfBox {
+          width: 90%;
+          height: 80%;
+          background-color: #E6E6E6;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 100px;
+          padding: 20px;
+          text-align: center;
+          border: none;
+          border-radius: 30px;
+
+      }
+      .login-form {
+          width: 500px;
+          height: 400px;
+          background-color: #FFFFFF;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 50px;
+          padding: 20px;
+          text-align: center;
+          border: none;
+          border-radius: 40px;
+
+      }
+
+      .text-field {
+            font-size: 14px;
+            padding: 10px;
+            border: none;
+            width: 300px;
+            margin-bottom: 20px;
+            background-color: #E6E6E6;
+      }
+
+      .join-btn {
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        width: 130px;
+        background-color: #C5C5C5;
+        margin-bottom: 30px;
+        color: white;
+        border-radius: 40px;
+      }
+
+      .submit-btn {
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        width: 130px;
+        background-color: #4F966C;
+        margin-bottom: 30px;
+        color: white;
+        border-radius: 40px;
+      }
+
+      .links {
+          text-align: center;
+      }
+
+      .links a {
+        font-size: 12px;
+        color: #9B9B9B;
+      }
+
+      .empty {
+        margin-top: 70px;
+        text-align:center;
+      }
+
+      .tb {
+        margin-top: 50px;
+        text-align:right;
+      }
+
+  </style>
+</head>
+<body>
+  <div class="home">&nbsp;
+    <a href="http://127.0.0.1:3000/all" style="display:inline;"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1zJ2QqhLOxonaUsf7M88AR5y4oKUSO6JiC3mZfMo8rupxYecAUq0xalCYU5pgAJwQmRCbD968E8vSMiM6vT1i_-fDro9MIflziOwSntze1YGlvxc0x3_vY2pc3eB8R01sS5hPNaONcNX4ikH2aO_w8ey2pM11gGLJa2kYyyuiLiXfqE-dgLyANo17/s3065/home_white.png"  width="300"></a>
+  </div>
+  <div class="boxOfBox">
+  <div class="login-form">
+  <div class="empty">
+  <form method="post">
+    로그인<br><br>
+    <input type="text" name="ID" class="text-field" placeholder="ID">
+    <input type="password" name="pw" class="text-field" placeholder="PASSWORD">
+    <div class="tb">
+      <a href="http://127.0.0.1:3000/join" class="join-btn" style="text-decoration-line: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;JOIN&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+      &emsp;
+      <input type="submit" value="LOGIN" class="submit-btn">
+      &emsp;
+
+    </div>
+  </form>
+</div>
+</div>
+</div>
+</body>
+</html>
