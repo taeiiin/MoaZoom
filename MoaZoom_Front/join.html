@@ -1,0 +1,123 @@
+<html>
+<head>
+  <style>
+
+    * {
+        box-sizing: border-box;
+        font-family: 'Noto Sans KR', sans-serif;
+        border-radius: 5px;
+      }
+
+      body {
+        margin: 0;
+        background-color: #4F966C;
+      }
+      .home{
+        position:absolute;
+        left:-1%;
+        top:-1%;
+      }
+      .boxOfBox {
+          width: 90%;
+          height: 90%;
+          background-color: #E6E6E6;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 90px;
+          padding: 20px;
+          text-align: center;
+          border: none;
+          border-radius: 30px;
+
+      }
+      .login-form {
+          width: 500px;
+          height: 600px;
+          background-color: #FFFFFF;
+          margin-right: auto;
+          margin-left: auto;
+          margin-top: 10px;
+          padding: 20px;
+          padding-top: 5px;
+          text-align: center;
+          border: none;
+          border-radius: 40px;
+
+      }
+
+      .text-field {
+            font-size: 14px;
+            padding: 10px;
+            border: none;
+            width: 300px;
+            margin-bottom: 20px;
+            background-color: #E6E6E6;
+      }
+
+      .join-btn {
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        width: 130px;
+        background-color: #C5C5C5;
+        margin-bottom: 30px;
+        color: white;
+        border-radius: 40px;
+      }
+
+      .submit-btn {
+        font-size: 14px;
+        border: none;
+        padding: 10px;
+        width: 130px;
+        background-color: #4F966C;
+        margin-bottom: 30px;
+        color: white;
+        border-radius: 40px;
+      }
+
+      .links {
+          text-align: center;
+      }
+
+      .links a {
+        font-size: 12px;
+        color: #9B9B9B;
+      }
+
+      .empty {
+        margin-top: 70px;
+        text-align:center;
+      }
+
+      .tb {
+        margin-top: 50px;
+        text-align:right;
+      }
+  </style>
+</head>
+<body>
+  <div class="home">&nbsp;
+    <a href="http://127.0.0.1:3000/all" style="display:inline;"><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1zJ2QqhLOxonaUsf7M88AR5y4oKUSO6JiC3mZfMo8rupxYecAUq0xalCYU5pgAJwQmRCbD968E8vSMiM6vT1i_-fDro9MIflziOwSntze1YGlvxc0x3_vY2pc3eB8R01sS5hPNaONcNX4ikH2aO_w8ey2pM11gGLJa2kYyyuiLiXfqE-dgLyANo17/s3065/home_white.png"  width="300"></a>
+  </div>
+  <div class="boxOfBox">
+  <div class="login-form">
+  <div class="empty">
+    <form method="post">    
+    회원가입<br><br>
+    <input type="text" name="ID" class="text-field" placeholder="학번 (ID)">
+    <input type="password" name="pw" class="text-field" placeholder="비밀번호">
+    <input type="text" name="name" class="text-field" placeholder="이름"><br>
+    <input type="text" name="phone" class="text-field" placeholder="전화번호">
+    <input type="text" name="email" class="text-field" placeholder="E-MAIL">
+    <input type="text" name="major" class="text-field" placeholder="학과">
+    <div class="tb">
+      <input type="submit" value="JOIN" class="submit-btn">
+      &emsp;
+    </div>
+  </form>
+</div>
+</div>
+</div>
+</body>
+</html>
