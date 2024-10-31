@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+      * {
+          box-sizing: border-box;
+          font-family: 'Noto Sans KR', sans-serif;
+
+        }
+      .up{
+        border-radius:40px 40px 0px 0px;
+        background-color:#FFFFFF;
+        padding: 15px;
+        width:800px;
+        height:250px;
+      }
+      .down{
+        border-radius:0px 0px 40px 40px;
+        background-color:#F4F3F3;
+        padding: 15px;
+        width:800px;
+        height:250px;
+      }
+      .time{
+        font-size: 10pt;
+      }
+      .fill {
+          font-size: 12pt;
+          width: 90%;
+          height: 30px;
+          padding: 4px;
+          margin: 3px 0;
+          border: 0px solid #ddd;
+          vertical-align: top;
+          background-color: #D9D9D9;
+      }
+      .write_button {
+          background-color: #D9D9D9;
+          font-size: 15px;
+          border: none;
+          padding: 2px;
+          margin: 3px 0;
+          width: 80px;
+          height:30px;
+          color: #777777;
+
+          position: absolute;
+      }
+      .dDay{
+        position:absolute;
+        margin-left:665px;
+        font-size: 12pt;
+        color:#6D6C6C;
+      }
+      #btn:link { color: white; text-decoration: none;}
+      #btn:visited{ color: white; text-decoration: none;}
+      #btn:active{ color: black; text-decoration: none;}
+    </style>
+</head>
+
+<body>
+  <div class="view_join">
+    <div class="up" style="overflow:auto;">
+      <div class="dDay">게시 마감 D-2</div>
+      <% data1.forEach(function (item, index) { %>
+      <h2><%= item.title %></h2>
+      <%= item.text %>
+      <% }); %>
+    </div>
+    <!-- 댓글 창-->
+    <div class="down" style="overflow:auto;" data-role="content">
+      <!--댓글 작성 창-->
+      <form method="post">
+      <input name="text" class="fill" type="text" placeholder="댓글을 입력하세요." >
+      <input type="submit" value="SEND" class="write_button">
+      </form>
+    <br>
+      <div class="comment" id="content" data-role="listview" data-inset="true"></div>
+
+      <% data2.forEach(function (item, index) { %>
+      <div class="comment">
+        <b><%= item.nick %></b> : <%= item.text %><br>
+        <div class="time"><%= item.time %></div>
+      </div><br>
+      <% }); %>
+    </div>
+  </div>
+
+</body>
+
+</html>
