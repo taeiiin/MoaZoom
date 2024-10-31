@@ -81,46 +81,56 @@
 
 ## 최종 프로젝트 소개
 
-![메인](https://github.com/user-attachments/assets/3b5d12e2-f1ed-4b4a-b371-4195eafd85bc "Main Page")
-- **메인 페이지:**
+- ### **메인 페이지 :**
+    ![메인](https://github.com/user-attachments/assets/3b5d12e2-f1ed-4b4a-b371-4195eafd85bc "Main Page")
   - 그룹 매칭글과 정보글 모두 볼 수 있고, API를 통해 지도를 볼 수 있음
   - 지도에서는 클릭 시 마커를 생성하여 글 목록을 확인 가능
   - 상단의 로고를 누르면 다른 페이지에서 메인 페이지로 복귀
   - 상단 바의 빨간 동그라미 버튼은 정보 공유 페이지로, 초록 동그라미 버튼은 그룹 매칭 페이지로 연결, 메인 페이지의 ALL 버튼은 마커 표시/숨기기 기능
   - 오른쪽 상단의 인물 버튼은 마이페이지로, 문 버튼은 로그아웃 기능으로 연결
 
-![정보공유](https://github.com/user-attachments/assets/ee2015b9-c6ee-4dd0-9b3c-4d4e76bdf105)
-- **정보 공유 페이지:**
+<br/>
+
+- ### **정보 공유 페이지 :**
+    ![정보공유](https://github.com/user-attachments/assets/ee2015b9-c6ee-4dd0-9b3c-4d4e76bdf105)
   - 정보 공유 페이지에서는 회원들이 입력한 각종 정보들을 확
   - 모든 글은 3일 존재한 뒤 자동으로 삭제
   - 글 입력은 지도 오른쪽의 + 버튼을 누르거나 지도에 마커를 찍어 작성 가능
   - 글 작성 창이 뜨면 로그인된 경우 제목과 내용을 입력한 뒤 글 게시 가능
   - 글 작성 후 정보 공유 페이지를 재접속하면 작성한 글이 보이고, view 버튼을 누르면 글 상세 페이지로 가서 각 정보를 확인 가능
 
-![그룹매칭](https://github.com/user-attachments/assets/6bb71bf4-d9a1-47a1-944f-89008fb48c8b)
-- **그룹 매칭 페이지:**
+<br/>
+
+- ### **그룹 매칭 페이지 :**
+    ![그룹매칭](https://github.com/user-attachments/assets/6bb71bf4-d9a1-47a1-944f-89008fb48c8b)
   - 그룹 매칭 페이지에서는 회원들이 모집하는 그룹들을 확인
   - 정보 공유글과 마찬가지로 그룹 모집글의 경우에도 3일이 지나면 글이 자동으로 삭제
   - plus 버튼 혹은 지도를 클릭해 마커를 통해 글 작성이 가능. 제목과 내용, 모임 날짜와 시간, 모집 인원 등 작성
   - view 버튼을 누르면 그룹 상세 페이지로 이동해 글 전문을 확인
   - join 버튼을 누르면 이미 참가한 그룹이거나 꽉 찬 그룹이 아닌 경우 그룹에 참여가 되며, 현재 몇 명이 참여 중인지 alert창을 통해 확인 가능
-  
-![글 상세1](https://github.com/user-attachments/assets/3a29b33b-2e87-496d-bfcb-86241361bf6c)
-![글 상세2](https://github.com/user-attachments/assets/60bf869e-22ff-4d1c-ad2e-0a1de82eea16)
-- **글 상세 페이지:**
+
+<br/>
+
+- ### **글 상세 페이지 :**
+    ![글 상세1](https://github.com/user-attachments/assets/3a29b33b-2e87-496d-bfcb-86241361bf6c)
+    ![글 상세2](https://github.com/user-attachments/assets/60bf869e-22ff-4d1c-ad2e-0a1de82eea16)
   - 각 정보 공유 페이지와 그룹 매칭 페이지에서 view 버튼을 누르면 뜨는 글 상세 페이지
   - 정보 공유글의 경우 제목/본문과 글 삭제 마감 날짜를 확인 가능하며 그룹 매칭 페이지의 경우 모집 중이라는 정보와 제목/본문과 모집 인원/날짜/시간을 확인
   - 두 페이지 모두 댓글을 남길 수 있음 : 댓글은 회원 정보에서 학번(ID)의 앞 두자리와 전공 데이터를 가져와 합쳐 닉네임화 시켜 작성하도록 하였기 때문에 로그인 이후에만 이용 가능
-![회원가입](https://github.com/user-attachments/assets/1eedbd7f-5fc6-4614-9482-d36f0a1f3acb)
-![로그인](https://github.com/user-attachments/assets/87a7d83d-06f8-494c-a71e-f0424a6af964)
 
-- **회원가입 및 로그인:**
+<br/>
+
+- ### **회원가입 및 로그인 페이지 :**
+    ![회원가입](https://github.com/user-attachments/assets/1eedbd7f-5fc6-4614-9482-d36f0a1f3acb)
+    ![로그인](https://github.com/user-attachments/assets/87a7d83d-06f8-494c-a71e-f0424a6af964)
   - 마이페이지에 접속 시 로그인되지 않은 상태라면 로그인 페이지로 연결
   - 로그인 시 회원 정보가 없을 경우 회원가입 페이지로 이동
   - 회원가입은 학번(ID), 비밀번호, 이름, 전화번호, email, 전공 정보를 입력
 
-![마이페이지](https://github.com/user-attachments/assets/6763053e-333b-45be-a3ca-4bc377df2a5d)
-- **마이페이지:**
+<br/>
+
+- ### **마이페이지 :**
+    ![마이페이지](https://github.com/user-attachments/assets/6763053e-333b-45be-a3ca-4bc377df2a5d)
   - 회원 정보를 확인
   - 내가 작성한 글 목록에서 정보글과 그룹매칭글을 구분하여 확인할 수 있으며, 참여한 그룹 기록 또한 확인이 가능
   - 작성글의 경우 시간이 지나면 목록에서 사라지지만 그룹 참여 기록의 경우 지속
