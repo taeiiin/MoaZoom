@@ -1,5 +1,3 @@
-readme 작성이 아래와 같이 끝났어. 근데 readme에서 이미지 업로드되는 시간이 너무 길어서, 이미지가 빠르게 뜨게 하고 싶어. 어떻게 개선할 수 있을까?
-
 # 🔎 모아줌 (moaZOOM)
 ![image](https://github.com/user-attachments/assets/33c7c971-054f-453f-ae34-240ab79dcb62)
 캠퍼스 위치별로 생성된 모임 리스트를 한눈에 보고 참여할 수 있는 지도 기반 그룹 매칭/정보 공유 커뮤니티
